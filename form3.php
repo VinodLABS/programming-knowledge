@@ -57,15 +57,15 @@
         <br><br>
         <p>Skills:</p>
 
-        <input type="checkbox" name="skills[]" value="PHP"
+        <input type="checkbox" name="skills[]" value="PHP course"
             <?= in_array('PHP', $old['skills'] ?? []) ? 'checked' : '' ?>>
         PHP
 
-        <input type="checkbox" name="skills[]" value="JS"
+        <input type="checkbox" name="skills[]" value="JS course"
             <?= in_array('JS', $old['skills'] ?? []) ? 'checked' : '' ?>>
         JavaScript
 
-        <input type="checkbox" name="skills[]" value="React"
+        <input type="checkbox" name="skills[]" value="React course"
             <?= in_array('React', $old['skills'] ?? []) ? 'checked' : '' ?>>
         React
 
@@ -94,18 +94,18 @@
             <option value="">Select</option>
 
             <option value="India"
-                <?= ($old['country'] ?? '') === 'India' ? 'selected' : '' ?>>
+                <?= ($old['country'] ?? '') === 'In' ? 'selected' : '' ?>>
                 India
             </option>
 
             <option value="USA"
                 <?= ($old['country'] ?? '') === 'USA' ? 'selected' : '' ?>>
-                USA
+                united state
             </option>
 
             <option value="UK"
                 <?= ($old['country'] ?? '') === 'UK' ? 'selected' : '' ?>>
-                UK
+                United Kingdom
             </option>
         </select>
         <?php if (isset($errors['country'])): ?>
