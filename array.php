@@ -2,29 +2,29 @@
 // Array of 5 students with scores in 3 subjects
 $students = [
    "student1" => [
-        "Math" => 85,
-        "Science" => 90,
-        "English" => 78
+        "Math" => 51,
+        "Science" => 33,
+        "English" => 37
     ],
   "student2" => [
-        "Math" => 75,
-        "Science" => 80,
-        "English" => 88
+        "Math" => 39,
+        "Science" => 44,
+        "English" => 32
     ],
    "student3" => [
-        "Math" => 92,
-        "Science" => 85,
-        "English" => 80
+        "Math" => 33,
+        "Science" => 46,
+        "English" => 40
     ],
   "student4" =>  [
-        "Math" => 68,
+        "Math" => 48,
         "Science" => 70,
-        "English" => 75
+        "English" => 35
     ],
  "student5" =>   [
-        "Math" => 80,
-        "Science" => 78,
-        "English" => 82
+        "Math" => 37,
+        "Science" => 44,
+        "English" => 49
     ]
 ];
 // Initialize total scores
