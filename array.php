@@ -48,5 +48,4 @@ $averageEnglish = $totalEnglish / $studentCount;
 echo "Average Math score: " . round($averageMath, 2) . "<br>";
 echo "Average Science score: " . round($averageScience, 2) . "<br>";
 echo "Average English score: " . round($averageEnglish, 2) . "<br>";
-
 ?>
