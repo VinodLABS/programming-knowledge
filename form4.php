@@ -8,7 +8,7 @@
 <body>
     <form action="checked.php" method="post">
     <label>Enter your marks:</label>
-    <input type="number" name="marks" required>
+    <input type="number" min="0" max="100" name="marks" placeholder="write here" required>
     <br><br>
     <button type="submit">Check Grade</button>
 </form>
